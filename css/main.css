@@ -35,7 +35,8 @@ a {
 }
 
 .btn {
-  display: block;
+  display: inline-block;
+  width: 100%;
   border: none;
   outline: none;
   text-decoration: none;
@@ -105,11 +106,11 @@ a {
   margin: 0.375em 0;
 }
 
-.mainmenu li {  /* any li inside the .mainmenu */
+.menu-item {
   margin: 1em 0;
 }
 
-.mainmenu li a {  /* any a, inside of li, inside the .mainmenu */
+.menu-item a {  /* any 'a' inside of a .menu-item */
   color: white;
   text-decoration: none;
   font-size: 1.25em;
@@ -152,11 +153,15 @@ a {
   overflow: hidden;
 }
 
+.lessons-grid {
+  margin: 1em 0;
+}
+
 .lesson {
   background-color: #fff;
   border: 1px solid #ddd;
   padding: 0 1em;
-  margin: 1em 0;
+  margin: 1em 0; /* this spacing can be replaced with grid-gap on the parent grid */
 }
 
 .article-img {
