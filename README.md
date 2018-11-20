@@ -18,7 +18,7 @@ Using the example above, let's complete the following:
 
 ## On Your Own
 
-1. Change the layouts of the `.lessons-block` to be a 4 column grid within the `min-width:900px` breakpoint
+1. Change the layouts of the `.lessons-grid` to be a 4 column grid within the `min-width:900px` breakpoint
       ```
       grid-template-columns: 1fr 1fr 1fr 1fr;
       ```
