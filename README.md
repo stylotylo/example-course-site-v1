@@ -39,3 +39,4 @@ Using the example above, let's complete the following:
       | .grading | .topics  |
       -----------------------
       ```
+      _Hint: Don't think about shrinking blocks into the template, think about stretching them._
